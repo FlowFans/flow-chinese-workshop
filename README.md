@@ -23,7 +23,7 @@
 
 ### Cadence 智能合约开发与部署
 
-- Flow 相关开发工具简介
+  - Flow 相关开发工具简介
 - Cadence 基础知识介绍
 - Flow CLI 命令行工具使用
 - Flow Emulator 调式与使用
@@ -35,12 +35,11 @@
 区块链开发者 & Flow 中国区技术大使
 
 
-### FLOW 服务端开发教程
+### FLOW 工具介绍
 
- - FLOW GO SDK 介绍和基本使用
- - FLOW  交易的构建,签名和发送
- - FLOW 代币和 NFT 交易的解析,事件订阅
- - 使用 GO SDK 部署智能合约并调用
+- Flow开发资源介绍
+- Cadence 基础介绍
+- Flow Playground 的详细使用方式
 
 简介：
 主讲人：JAY
