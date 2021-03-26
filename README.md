@@ -2,17 +2,13 @@
 
 ## Workshop
 
-### 第一期： Flow DApp 开发速览
+### Flow DApp 开发速览
 - 了解 Flow 面向资源编程模型与账户模型 
 - 了解 Cadence 智能合约语言
 - Flow Playground Cadence 使用详解
 - Kitty-item 源码示例与讲解
 
-简介：
 主讲人：Lsy & JAY & Caos
-- 前 Asch 链 DApp 工程师
-- 资深前端开发
-- Flow 中国区技术大使
 
 ### Flow fcl 与前端开发
 
@@ -37,8 +33,6 @@
 简介：
 主讲人：Lsy
 区块链开发者 & Flow 中国区技术大使
-
-
 
 
 ### FLOW 服务端开发教程
