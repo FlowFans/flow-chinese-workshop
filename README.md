@@ -1,8 +1,9 @@
 # Flow 中国 Workshop
 
-## Workshop
+## Workshop 课程大纲
 
 ### Flow DApp 开发速览
+
 - 了解 Flow 面向资源编程模型与账户模型 
 - 了解 Cadence 智能合约语言
 - Flow Playground Cadence 使用详解
@@ -45,3 +46,8 @@
 简介：
 主讲人：JAY
 资深区块链开发 & Flow 中国区技术大使
+
+### 项目结构介绍
+
+- courses —— 课程相关的代码和内容
+- teams —— 存放参赛小组的作业或项目资料，通过 fork 本仓库的形式来完成维护，并通过 pull request 提交
