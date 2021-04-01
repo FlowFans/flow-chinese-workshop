@@ -13,16 +13,24 @@
 
 ## Cadence 快速上手
 
-- Cadence 基础语法
-- 权限控制（Access control ）
-- 账户类型（Accounts ）
-- 引用 （References ）
-- 合约 （Contracts ）
-- 事务 （Transactions ）
-- NFT 实例讲解
+- Flow 开发工具简介
+- Cadence 基础知识
+  - Cadence 常用语法
+  - 权限控制（Access control）
+  - 账户类型（Accounts）
+  - 引用 （References）
+  - 合约 （Contracts）
+  - 事务 （Transactions）
+  - NFT 实例讲解
 
 
 ## 作业
 
-- Cadence FT 或 NFT 合约部署至测试网
+> 课后作业：通过Flow CLI 本地开发测试合约， 部署 `Fungible Tokens` 或 `Non-Fungible Tokens` 合约部署至测试网，可以添加新的代码和交互逻辑，将自部署的地址提交到 github 仓库里
+
+## 参考资料
+
+- [Fungible Tokens](https://docs.onflow.org/cadence/tutorial/03-fungible-tokens/)
+
+- [Non-Fungible Tokens](https://docs.onflow.org/cadence/tutorial/04-non-fungible-tokens/)
 
