@@ -11,6 +11,8 @@
 
 主讲人：Lsy & JAY & Caos
 
+> 课后作业：克隆 Kitty-item 项目，并能通过文档启动本地开发环境，部署合约并完成第一笔 NFT 交易，将截图提交到 github 的仓库里
+
 ### Flow fcl 与前端开发
 
 - Flow 前端 Demo 演示
@@ -28,6 +30,7 @@
 主讲人：Caos
 资深前端工程师 & Flow 中国区技术大使
 
+> 课后作业：通过 fcl demo 将 helloworld 合约部署在测试网，可以添加新的代码和逻辑进度，将自部署的地址提交到 github 仓库里
 
 ### Cadence 智能合约开发与部署
 
