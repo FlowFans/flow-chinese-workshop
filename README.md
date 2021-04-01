@@ -45,9 +45,10 @@
 
 ### FLOW 工具介绍
 
-- Flow开发资源介绍
-- Cadence 基础介绍
-- Flow Playground 的详细使用方式
+- FLOW GO SDK 介绍和基本使用
+- FLOW  交易的构建,签名和发送
+- FLOW 代币和 NFT 交易的解析,事件订阅
+- 使用 GO SDK 部署智能合约并调用
 
 简介：
 主讲人：JAY
