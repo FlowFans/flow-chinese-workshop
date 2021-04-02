@@ -50,17 +50,19 @@
 
 > 课后作业：通过Flow CLI 本地开发测试合约， 部署 `Fungible Tokens` 或 `Non-Fungible Tokens` 合约部署至测试网，可以添加新的代码和交互逻辑，将自部署的地址提交到 github 仓库里
 
-### FLOW 工具介绍
+### FLOW GO SDK 介绍
 
 - FLOW GO SDK 介绍和基本使用
-- FLOW  交易的构建,签名和发送
-- FLOW 代币和 NFT 交易的解析,事件订阅
-- 使用 GO SDK 部署智能合约并调用
+    - FLOW  FT 交易的构建,签名和发送
+    - FLOW  FT 解析,事件订阅
+    - FLOW  NFT 交易构建,事件解析,事件订阅
+    - 智能合约的部署和 script 编写
 
 简介：
 主讲人：JAY
 资深区块链开发 & Flow 中国区技术大使
 
+> 课后作业：编写一个可以获取 FLOW token 或者 NBA TOP SHOP 交易解析的脚本,将代码提交到 github 的仓库里
 ### 项目结构介绍
 
 - courses —— 课程相关的代码和内容
