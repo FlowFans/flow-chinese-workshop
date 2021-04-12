@@ -34,3 +34,9 @@
 
 - [Non-Fungible Tokens](https://docs.onflow.org/cadence/tutorial/04-non-fungible-tokens/)
 
+- [workshop video](#)
+链接：https://pan.baidu.com/s/1R_eCNkbcRpfVPriac5ugog 
+提取码：flow 
+
+- [Flow 中文指南: Flow 快速入门](https://pywizard6261.gitbook.io/flow/she-qu-can-kao-zi-yuan/blocto-flow-shang-zui-hao-yong-de-qu-kuai-lian-qian-bao)
+
