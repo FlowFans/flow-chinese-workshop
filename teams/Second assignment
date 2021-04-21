@@ -1,10 +1,10 @@
   
  测试网合约部署的交易 hash: 
-  1709211645fdfa5ba41329d1254661c5bcafd4f55c44a7c1f404652e9bf38912
+  8d75a40c4513fe9dcca5594fd323b471a597c44881fb7378f6fe9f9dd98345bb
    调用合约的交易 hash: 
-   553875486fbd488954370938947bbd21c25144e4c33ca1867672e52e03c2396a
+  79bbab2b00a21fd5fb7f01365f9fa5a08399eb23b239956ce0cf09a577518486
    修改的合约: 
-  access(all) contract HelloWorld {
+ access(all) contract HelloWorld0 {
   pub let greeting: String
   pub event HelloEvent(message: String)
 
