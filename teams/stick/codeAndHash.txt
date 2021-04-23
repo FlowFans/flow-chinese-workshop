@@ -1,0 +1,22 @@
+hash--部署合约
+c2de832915209f0532a3e3dcd05dbc7c76065692b7ae25f79f248583b426dbcd
+
+hash--合约交易
+6b2e005f094453a8f1042fa12cecbbaa647e3c5104336ee08fca03f130b33431
+
+code--源代码
+access(all) contract HelloWorld {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, World!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}
+
+
