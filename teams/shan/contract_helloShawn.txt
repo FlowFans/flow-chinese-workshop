@@ -1,0 +1,22 @@
+contract transactionId:
+758c167adb4d69457db9777c728d81a40d9c4fb0bfaecd5cb9fb64041be13c28
+
+run transactionId:
+787a9c31956cdd24012f888a6e3718cfd61c062db146f543a268c8bcb883eba4
+
+updated contract, change name of contract:
+
+const simpleContract = `
+access(all) contract HelloShawn {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, Shawn!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}

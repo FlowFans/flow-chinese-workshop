@@ -1,0 +1,21 @@
+//测试网合约部署的交易 hash:
+858cb949522a344ef14991523c490c0f6e901e23b4b600652535058f5c4f6049
+
+//调用合约的交易 hash:
+1722a4d872422c8ba83bfb3cc37e887950981240c6fb1a2590c2aceb8bba37ec
+
+//修改的合约:
+
+access(all) contract GoodMorningEveryone {
+  pub let greeting: String
+  pub event GoodMorningEvent(name: String)
+
+  init() {
+    self.greeting = "Good Morning, "
+  }
+
+  pub fun goodMorning(name: String): String {
+    emit GoodMorningEvent(name: name)
+    return self.greeting.concat(name)
+  }
+}

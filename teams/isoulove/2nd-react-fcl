@@ -1,0 +1,24 @@
+合约部署哈希：
+bb7323117fc9ac89117ae93773b38983fc16c99afddac66d2b081c4527e7cdb9
+
+合约调用哈希：
+c6d2d7cca9b5a749cf2f50da0f0c2e858e86256b5597f9d4311a14f3201668e3
+
+合约源代码：
+
+access(all) contract HelloWorld3 {
+  pub event HelloEvent(message: String)
+
+  pub resource HelloAsset {
+    pub fun hello(message: String): String {
+      emit HelloEvent(message: message)
+      return "Hello, World!"
+    }
+  }
+
+  init() {
+    let newHello <- create HelloAsset()
+    self.account.save(<-newHello, to: /storage/Hello3)
+    log("HelloAsset created and stored")
+  }
+}

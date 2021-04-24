@@ -1,0 +1,5 @@
+测试网合约部署的交易 hash
+41796f942c0ce4786765c8baf46ef056c3a92fe9feeac8979f0e5c78a3272a98
+
+调用合约的交易 hash
+e48c7e5841f765e16f7d4efafcfebded15fa5c7c057ccdb15aa351baf442c090
