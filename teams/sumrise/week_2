@@ -1,0 +1,27 @@
+## 测试网合约部署的交易 hash
+
+4dc3fba038b23afc320408c49e56f672e5756189ae95a52c2276cb47d2450d68
+
+## 调用合约的交易 hash
+
+dc0f3c6a1b9db02056df69d8458ac5cc64fcdb4519a682c6275549434c186373
+
+## 合约的源代码
+
+```ts
+
+access(all) contract flowContract {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, mr.sorry"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}
+
+```
