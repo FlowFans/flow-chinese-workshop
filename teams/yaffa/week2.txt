@@ -1,22 +1,23 @@
-合约部署hash:
-fb34320dc92b37e9bd139697be1cb8de0ab984fce8c6903c526db225e74a52cc
-
-交易hash：
-13a4ceb4b7a18a2a75b771580227121c6a73cdc2b4b8e5fe3aa33406e67f4d24
-
-合约源代码：
-access(all) contract HelloWorld {
-  pub let greeting: String
-  pub event HelloEvent(message: String)
-
-  init() {
-    self.greeting = "Hello, World!"
-  }
-
-  pub fun hello(message: String): String {
-    emit HelloEvent(message: message)
-    return self.greeting
-  }
-}
-
-
+ 合约部署hash: 
+  fb34320dc92b37e9bd139697be1cb8de0ab984fce8c6903c526db225e74a52cc 
+  
+   交易hash： 
+ 3c8875aa826eea659643bf38cbd3f27d276b63e71db5674c1a75006d94069bc8
+  
+   合约源代码： 
+  access(all) contract HelloWorld { 
+   pub let greeting: String 
+   pub event HelloEvent(message: String) 
+  
+    init() { 
+   self.greeting = "Hello, World!" 
+   } 
+  
+    pub fun hello(message: String): String { 
+   emit HelloEvent(message: message) 
+   return self.greeting 
+   } 
+  } 
+  
+   
+ 
