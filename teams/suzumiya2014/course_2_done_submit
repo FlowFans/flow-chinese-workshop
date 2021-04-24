@@ -1,0 +1,20 @@
+//部署合约的Hash: adcbc2be5be51f2e32eac71419ff6c2b93600c56489c37919c1d869f8e1f4b20
+
+//调用合约的Hash: 3bff3258e849939c71e1c2ab115699081a8fd4cfb8abf577b408d0ffaac1490c
+
+
+//合约代码(最近很忙没啥时间，没有单独调试新的合约):
+ 
+access(all) contract GoodNight {
+  pub let greeting: String
+  pub event GoodNightEvent(message: String)
+
+  init() {
+    self.greeting = "GoodNight, World!"
+  }
+
+  pub fun goodnight(message: String): String {
+    emit GoodNightEvent(message: message)
+    return self.greeting
+  }
+}
