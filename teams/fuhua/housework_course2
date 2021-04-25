@@ -1,0 +1,19 @@
+测试网合约部署的交易hash
+303d690ecd4b0f8facc74002b5a1c0632630322a800f0e4cc9cbe5a15da45249
+调用合约的交易hash
+750a20c946b9238a4d08c7f1a3cb493ca4878c4ca59ad3e1177f0eee2b5d927b
+
+合约源码（未修改）
+access(all) contract HelloWorld {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, World!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}

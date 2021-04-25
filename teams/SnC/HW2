@@ -1,0 +1,16 @@
+Deployed contract : f1a89c790edeb5ce8c641fcc522ea8bbe38b37772608600421ee05803a3846ec
+Interactwith contract : fb57c55558b54e38a3ef82973e28e55946a86a4fc87adb9358d2dbb5c71414df
+Contract: (Unchanged)
+access(all) contract HelloWorld {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, World!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}

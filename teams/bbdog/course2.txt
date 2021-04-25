@@ -1,0 +1,26 @@
+测试网合约部署的交易 hash:
+
+	17737c94d74039540900f90543fd45d89f03a5f36d1d83eca2502cfe7127659a
+
+调用合约的交易 hash:
+
+	256831e029146cced19c11f0760b2a1158b56362855c8215ef2a250332a071f7
+
+修改的合约:
+
+access(all) contract HelloWorld {
+  pub let greeting: String
+  pub let greeting2: String   //新增了变量
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, World!"
+	self.greeting2 = "this is my first trying!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting.concat(self.greeting2)   //返回值concat了新的内容
+  }
+}
+
