@@ -1,1 +1,1 @@
-url:https://play.onflow.org/68869502-2f28-4d38-b766-2b0e41b2ecd8?type=script&id=1f6fa6d3-3944-4583-8f9c-258e81832f0
+https://flow-view-source.com/testnet/account/0x08566b39ceb715cd
