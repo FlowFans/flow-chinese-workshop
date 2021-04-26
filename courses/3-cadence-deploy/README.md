@@ -28,6 +28,11 @@
 
 > 课后作业：通过Flow CLI 本地开发测试合约， 部署 `Fungible Tokens` 或 `Non-Fungible Tokens` 合约部署至测试网，可以添加新的代码和交互逻辑，将自部署的地址提交到 github 仓库里
 
+- [作业提交形式](../../teams/1-team-name/)： 创建文本文件(`flow_week2.md`) 并写入测试网部署合约的地址 =>  `https://flow-view-source.com/testnet/account/0x64ce437a3838c89d`
+
+提交截止日期 2021-05-02 24:00:00
+
+
 ## 参考资料
 
 - [Fungible Tokens](https://docs.onflow.org/cadence/tutorial/03-fungible-tokens/)
