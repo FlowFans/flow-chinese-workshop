@@ -1,0 +1,59 @@
+fcl部署同质化代币合约：
+https://flow-view-source.com/testnet/account/0xd1eaadd012fcd9f0/contract/MyFToken
+
+-------------部署及交互代码如下-----------------
+D:\00Geek\flow\3st-week>flow init
+Configuration initialized
+Service account: [1m0xf8d6e0586b0a20c7[0m
+
+Start emulator by running: [1m'flow emulator'[0m
+Reset configuration using: [1m'flow init --reset'[0m
+
+
+D:\00Geek\flow\3st-week>flow accounts add-contract MyFToken ./MyFToken.cdc --signer=testnet-account --network=testnet
+
+Contract 'MyFToken' deployed to the account 'd1eaadd012fcd9f0'.
+Address  0xd1eaadd012fcd9f0
+Balance  999.99850000
+Keys     1
+
+Key 0   Public Key               686994db87cac57bf8953bcaf2aedb1b2eb773527a6173186e481848c55ba576cde0f500412f50735be790ed7f0b71353c1915a6a48961d0282749b5d2dbf7ff
+        Weight                   1000
+        Signature Algorithm      ECDSA_P256
+        Hash Algorithm           SHA3_256
+        Revoked                  false
+
+Contracts Deployed: 4
+Contract: 'Kibble'
+Contract: 'KittyItems'
+Contract: 'KittyItemsMarket'
+Contract: 'MyFToken'
+
+D:\00Geek\flow\3st-week>flow transactions send TCreateLink.cdc --signer=acc1 --network=testnet
+Sending transaction with ID 5d4fea694e8f4b4b0cd3e26dcf5230c39f5bb82b9ba3d0ebd5477c102a877b03
+
+
+ID       108b83d4d2ecdc15fd30693b177dbe882e4c9825e17ce40efeedbd26a3e8908b
+Status   SEALED
+Payer    d1eaadd012fcd9f0
+Events
+
+
+D:\00Geek\flow\3st-week>flow transactions send TSetupAccount.cdc --signer=acc2 --network=testnet
+Sending transaction with ID 1a1f6a545f48a4d1b651c7e2f86fff7c6200a6a85e0c699a0a81df2d786b7c1d
+
+
+ID       563921ec636104c074ad19f928f04a9da21e89383146609e33b8e46a6561fd5e
+Status   SEALED
+Payer    411b4a8b5e8a6ecb
+Events
+
+
+D:\00Geek\flow\3st-week>flow transactions send TMintTokens.cdc --signer=acc1 --network=testnet
+Sending transaction with ID b28af2914e4d53a6f5a4ce99e3882bf5f867cf3d5da0b4fb1220b12e306f1c17
+Sending transaction...⠋
+Waiting for transaction to be sealed...⠴
+ID       c94a5201df510074e688742e03c3ddc7b3e3d14546d5e1990315cf6c5a8ec4fa
+Status   SEALED
+Payer    d1eaadd012fcd9f0
+Events
