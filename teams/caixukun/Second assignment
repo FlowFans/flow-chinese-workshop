@@ -1,0 +1,19 @@
+//部署合约的Hash: ecbe6ad07ff4d2f79d54e5c436a0121cabecc9eb8c936da9f082b414391741ec
+
+//调用合约的Hash: 50e26626e5c7b79adc26c4a7cafde27dc5102f58b68715cee8f3766d5d604fcd
+
+
+//合约代码(修改):
+access(all) contract HelloWorld2 {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Hello, World!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}
