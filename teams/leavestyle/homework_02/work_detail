@@ -1,0 +1,19 @@
+Deploy contract transaction_id : ba347ce4d361d74e163bb1b7cf66df988233d35af6ccd739a14d1504ad8cdb6f
+
+Interact with contract transaction_id : 00f7ed31ae9d70eca179c9072e30ab83c65152da46a7771c9da71e690e53f801
+
+// Custom code:
+access(all) contract Homework_02 {
+  pub let greeting: String
+  pub event HelloEvent(message: String)
+
+  init() {
+    self.greeting = "Finish the second homework!"
+  }
+
+  pub fun hello(message: String): String {
+    emit HelloEvent(message: message)
+    return self.greeting
+  }
+}
+
