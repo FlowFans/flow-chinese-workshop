@@ -6,7 +6,7 @@
 @time: 2021-05-13 23:07
 """
 
-from flow_py_sdk import Script, flow_client
+from flow_py_sdk import flow_client
 import json
 import asyncio
 
