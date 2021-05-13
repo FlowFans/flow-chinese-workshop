@@ -8,6 +8,9 @@ import (
 )
 
 func main() {
+
+	ctx := context.Background()
+
 	flowClient, err := client.New("access.mainnet.nodes.onflow.org:9000", grpc.WithInsecure())
 	if err != nil {
 		panic(err)
@@ -22,10 +25,10 @@ func main() {
 	lastBlockHeight := blockHeader.Height
 	fmt.Printf("Current block height: ", blockHeader.Height)
 
-	startBlock, endBlock := lastBlockHeight-40, lastBlockHeight
+	startBlock, endBlock := lastBlockHeight-1000, lastBlockHeight
 
 	//get tokendeposited event from blocks
-	blockEvents, err := flowClient.GetEventsForHeightRange(context.Background(), client.EventRangeQuery{
+	blockEvents, err := flowClient.GetEventsForHeightRange(ctx, client.EventRangeQuery{
 		Type:        "A.7e60df042a9c0868.FlowToken.TokensDeposited",
 		StartHeight: startBlock,
 		EndHeight:   endBlock,
