@@ -25,11 +25,11 @@ func main() {
 	lastBlockHeight := blockHeader.Height
 	fmt.Printf("Current block height: ", blockHeader.Height)
 
-	startBlock, endBlock := lastBlockHeight-1000, lastBlockHeight
+	startBlock, endBlock := lastBlockHeight - 100, lastBlockHeight
 
 	//get tokendeposited event from blocks
 	blockEvents, err := flowClient.GetEventsForHeightRange(ctx, client.EventRangeQuery{
-		Type:        "A.7e60df042a9c0868.FlowToken.TokensDeposited",
+		Type:        "A.1654653399040a61.FlowToken.TokensDeposited",
 		StartHeight: startBlock,
 		EndHeight:   endBlock,
 	})
