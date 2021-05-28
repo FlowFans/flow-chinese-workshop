@@ -4,17 +4,22 @@
 
 ### Flow DApp 开发速览
 
-- 了解 Flow 面向资源编程模型与账户模型 
-- 了解 Cadence 智能合约语言
-- Flow Playground Cadence 使用详解
-- Kitty-item 源码示例与讲解
+- 了解 Flow 面向资源编程模型与账户模型与 Cadence 智能合约语言 [视频](https://www.bilibili.com/video/BV1n84y1F78J)
+- Flow Playground Cadence 使用详解 [视频](https://www.bilibili.com/video/BV12v411774U)
+- Kitty-item 源码示例与讲解[视频](https://www.bilibili.com/video/BV1g84y1F7Py)
 
 主讲人：Lsy & JAY & Caos
 
 > 课后作业：克隆 Kitty-item 项目，并能通过文档启动本地开发环境，部署合约并完成第一笔 NFT 交易，将截图提交到 github 的仓库里
 
 提交截止日期 2021-04-17 24:00:00
+
+### Flow 中国区开发者发展计划
+
+[视频链接](https://www.bilibili.com/video/BV1864y1i7s3)
+
 ### Flow fcl 与前端开发
+[视频链接](https://www.bilibili.com/video/BV18y4y147BM)
 
 - Flow 前端 Demo 演示
 - Flow fcl 工具介绍
@@ -40,6 +45,7 @@
 提交截止日期 2021-04-24 24:00:00
 
 ### Cadence 智能合约开发与部署
+[视频链接](https://www.bilibili.com/video/BV1VZ4y1F7g2)
 
 - Flow 开发工具简介
 - Cadence 基础知识
