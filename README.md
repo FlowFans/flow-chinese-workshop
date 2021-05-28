@@ -68,6 +68,7 @@
 提交截止日期 2021-05-02 24:00:00
 
 ### FLOW GO SDK 介绍
+[视频链接](https://www.bilibili.com/video/BV1jV411E7gu)
 
 - FLOW GO SDK 介绍和基本使用
     - FLOW  FT 交易的构建,签名和发送
